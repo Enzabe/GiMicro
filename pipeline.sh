@@ -46,7 +46,7 @@ sed -i '4,5d' ${1}-dfs
 
 awk -f $SCR/transpose.awk  ${1}-dfs | awk '$1=$1' > ${1}-dfs-final
 
-rm -rf tempdata
+
 
 
 
